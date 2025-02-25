@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qBEF3+tOOIs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\continent-explorer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adi\\.nuget\\packages\\helixtoolkit.core.wpf\\2.26.0\\helixtoolkit.core.wpf.2.26.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "HelixToolkit.Core.Wpf/2.26.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/HelixToolkit.Core.Wpf.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/HelixToolkit.Core.Wpf.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelixToolkit.Core.Wpf/2.26.0": {
+      "sha512": "5UGFiRQE5dHA8R0Ji0rVH1GMdBV13Mh4DccAfUAy7uCqpfpvuAixXJJN04cJoqsdlIcs36Mojl0SG58fwoYa6g==",
+      "type": "package",
+      "path": "helixtoolkit.core.wpf/2.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AUTHORS",
+        "CONTRIBUTORS",
+        "LICENSE",
+        "README.md",
+        "helixtoolkit.core.wpf.2.26.0.nupkg.sha512",
+        "helixtoolkit.core.wpf.nuspec",
+        "helixtoolkit.png",
+        "lib/netcoreapp3.1/HelixToolkit.Core.Wpf.deps.json",
+        "lib/netcoreapp3.1/HelixToolkit.Core.Wpf.dll",
+        "lib/netcoreapp3.1/HelixToolkit.Core.Wpf.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "HelixToolkit.Core.Wpf >= 2.26.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Adi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\continent-explorer.csproj",
+      "projectName": "continent-explorer",
+      "projectPath": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\continent-explorer.csproj",
+      "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "HelixToolkit.Core.Wpf": {
+            "target": "Package",
+            "version": "[2.26.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
