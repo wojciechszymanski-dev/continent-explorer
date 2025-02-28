@@ -19,7 +19,7 @@ public partial class MainWindow : Window
         myView.CameraMode = CameraMode.FixedPosition;
         myView.Camera.LookDirection = new Vector3D(0, 0, -1);
         myView.Camera.UpDirection = new Vector3D(0, 1, 0);
-        myView.Camera.Position = new Point3D(-20, 6.5, 60);
+        myView.Camera.Position = new Point3D(-10, 6.5, 45);
 
         // Load the model
         ObjReader CurrentHelixObjectReader = new ObjReader();

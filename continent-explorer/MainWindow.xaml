@@ -8,7 +8,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Width="800">
-        <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <TextBlock Text="Continent" FontSize="45" FontFamily="poppins" TextAlignment="Center"/>
+            <TextBlock Text="Explorers" FontSize="45" FontFamily="poppins" TextAlignment="Center"/>
+            <Button Content="Start game" Height="50" Width="200" Margin="5"/>
+            <Button Content="Settings" Height="50" Width="200" Margin="5" />
+        </StackPanel>
+
+        <HelixToolkit:HelixViewport3D x:Name="myView" Grid.Column="1" ZoomExtentsWhenLoaded="False">
             <HelixToolkit:SunLight/>
             <ModelVisual3D x:Name="foo"/>
         </HelixToolkit:HelixViewport3D>
