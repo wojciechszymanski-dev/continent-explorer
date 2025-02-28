@@ -10,11 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\globe.mtl" />
+    <None Remove="Resources\globe.obj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="HelixToolkit.Core.Wpf" Version="2.26.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Resource Include="Resources\globe.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\globe.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

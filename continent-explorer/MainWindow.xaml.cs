@@ -19,7 +19,7 @@ public partial class MainWindow : Window
         myView.CameraMode = CameraMode.FixedPosition;
         myView.Camera.LookDirection = new Vector3D(0, 0, -1);
         myView.Camera.UpDirection = new Vector3D(0, 1, 0);
-        myView.Camera.Position = new Point3D(0, 0, 150);
+        myView.Camera.Position = new Point3D(-20, 6.5, 60);
 
         // Load the model
         ObjReader CurrentHelixObjectReader = new ObjReader();
@@ -59,7 +59,7 @@ public partial class MainWindow : Window
         {
             From = 0,
             To = -360,
-            Duration = new Duration(TimeSpan.FromSeconds(5)),
+            Duration = new Duration(TimeSpan.FromSeconds(7.5)),
             RepeatBehavior = RepeatBehavior.Forever
         };
         axisAngleRotation.BeginAnimation(AxisAngleRotation3D.AngleProperty, rotationAnimation);

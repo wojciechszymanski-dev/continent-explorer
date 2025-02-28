@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\resources\\globe.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:resources\\globe.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\resources\\globe.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:resources\\globe.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,18 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "globe.obj",
               "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Resources\\globe.obj",
               "RelativeDocumentMoniker": "Resources\\globe.obj",
               "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Resources\\globe.obj",
               "RelativeToolTip": "Resources\\globe.obj",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASJSURBVDhPlZNfaFNnGMafk5MmMWn\u002BtTP1JK2tSTmZXdIYktQisVKFQM0csVBGGaLuJrM3XggDr9xdb6bbetEbe6GgsAlOmEVNcNViS9fpRdeaEBNHC4Zm6ZJz8uckPUlzcnahzahOZD/44Hv53vd5nxfeD3gLmqblqVTKznHcQ47jGI7jfonH4z0URTW9nfsOoijuiH0\u002Bn3phYWGgUCj8evfu3czU1FT1wYMHGyzLTs/Pz3u8Xq9qR8F/QG5fTp48qQ0Gg4d7e3uDi4uLA48ePWqORCJSlmXlMpmsrbe3dzdFURmO4zKJRKKyU\u002BZfSLxxFgwGD7tcrtFIJPLZ/fv3lfF4XJLNZpHP5yX5fF6u0\u002BksDoeDaGlpyWUymY1kMlkdGhrSuN1upVwuJ1KpVA0ASJqm5RMTE26bzfZVJBL5dHp6Wvn8\u002BXOiUnltolqtgmEYguf5pn379tF9fX2bFoslsrS0xE9OTvadOnWqW6lUSpeWlph8Pl8nUqmUXaVSfT8/P\u002B8Jh8Oq5eVlol6v7xhDoVDA7XZjZGSkZDabr21tbV3d3NxUNDc3/yCRSNqr1er0wsLCt36//0\u002BiVCo9nJmZcc7OzmpjsZikVCrtENPpdLDZbAgEAti7d6\u002Bwa9eudQDrtVqNnJmZsXIcpzCbzesWi\u002BXhs2fPxqUEQbjS6XTzxsbGO2J4M3I6ncbc3ByamppIAB0AOgRBQDQaBc/zSCaTJolE4hscHOSloig\u002BaW9v7zeZTPpcLkcWi0UAgFarBUVR0Ol0qFaruHfvHrq6ukCSJNLpNBiGaTQVBEFqMBiMDofjC/LMmTN/0DT9iUwm210oFOTZbJaQSqVwOp314eFhbmRkhHc4HIrHjx/j9OnTcDqdYFkWyWQSACCVSmEwGMTu7u6K1Wr9S3LkyJFENBr9xuVyhf1\u002BP\u002B/xeODxeBAIBPj9\u002B/ffFEXxu4YVALVaDdsbAABmsxnHjh2r\u002Bny\u002BqCiKYyTHcfV4PJ6nKOrvAwcOEJ2dnXRPT8\u002BWyWSaunPnzo/hcLjudDqHQ6EQ3G43aJqGWq1GsVhEW1sbjh49Co/Hs5LNZm\u002BOjY1NSwFgbm6upNFofhcEQXL8\u002BPEyANy6deun69evr\u002Bj1esPZs2cbjvR6Pex2O0RRRDQahSAIKJfLSoVC8ZHValU0vl4ikahkMpk0RVEra2trv42PjyeePn26abVaP/b7/Z\u002BHQiG0trZCEATkcjmQJIlYLIbV1VVUKhWN2Wze7ff7s0Sj9Xs4ceJEYHJy8ueLFy\u002BCYRgIgtA423R0dGBgYEAYHR0tSnZUvwetVotLly7hypUrOHfuHOx2\u002B9spDRojv49yuVx69erVyuDg4OKePXtaWJZtffnyJbm\u002Bvg4AMJlMOHjw4JbX613VarUTHxQsFAqFFy9eLMtksoTRaJSoVCo9z/NtDMOQGo0G/f39W4cOHYqp1erbN27cuPZBQQCoVCri7OwsZzQaV202G2GxWDpFUdR3dXXVvV7vmlqtvh0Kha6eP3/\u002B9bb/Hy5cuGDgOO7LcrnMlstlluO4ry9fvmzafv8HGd8McOKgKM0AAAAASUVORK5CYII=",
-              "WhenOpened": "2025-02-25T10:59:58.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T10:59:58.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -56,7 +55,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T07:23:08.683Z",
               "EditorCaption": ""
