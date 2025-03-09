@@ -63,17 +63,12 @@ public partial class MainWindow : Window
             RepeatBehavior = RepeatBehavior.Forever
         };
         axisAngleRotation.BeginAnimation(AxisAngleRotation3D.AngleProperty, rotationAnimation);
-
-
-    // Optional: Set some lighting to better see the model
-    //AmbientLight ambientLight = new AmbientLight(System.Windows.Media.Colors.White);
-    //myView.Children.Add(new ModelVisual3D { Content = ambientLight });
     }
 
     private void StartGame_Click(object sender, RoutedEventArgs e)
     {
         GameWindow gameWindow = new GameWindow();
         gameWindow.Show();
-        this.Close(); // Closes the MainWindow
+        this.Close(); 
     }
 }

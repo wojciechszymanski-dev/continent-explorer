@@ -1,0 +1,437 @@
+[
+  {
+    "Name": "Africa",
+    "Description": "Africa is the world's second-largest and second-most populous continent, known for its diverse wildlife and cultures. It hosts a large diversity of ethnicities, cultures, and languages.",
+    "ImagePath": "/Resources/Images/africa.jpg",
+    "AudioPath": "/Resources/Audio/africa.mp3",
+    "RotationAngles": {
+      "X": -30,
+      "Y": 0,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "African Elephant",
+        "Description": "The African elephant is the largest living terrestrial animal. They are known for their large ears, long trunks, and ivory tusks. They play an important role in maintaining the biodiversity of the ecosystems they inhabit.",
+        "ImagePrompt": "African elephant in the savanna"
+      },
+      {
+        "Name": "Lion",
+        "Description": "The lion is one of the big cats. It is a member of the family Felidae.",
+        "ImagePrompt": "Male lion resting on a rock"
+      },
+      {
+        "Name": "Giraffe",
+        "Description": "The giraffe is an African artiodactyl mammal, the tallest living terrestrial animal.",
+        "ImagePrompt": "Tall giraffe in the African plains"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Mount Kilimanjaro",
+        "Description": "Mount Kilimanjaro is a dormant volcano in Tanzania. It is the highest mountain in Africa.",
+        "ImagePrompt": "Mount Kilimanjaro with snow-capped peak"
+      },
+      {
+        "Name": "Victoria Falls",
+        "Description": "Victoria Falls is a waterfall on the Zambezi River in southern Africa.",
+        "ImagePrompt": "The powerful Victoria Falls"
+      },
+      {
+        "Name": "Great Pyramids of Giza",
+        "Description": "The Great Pyramid of Giza is the oldest and largest of the pyramids in the Giza complex.",
+        "ImagePrompt": "The Great Pyramids of Giza in Egypt"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which is the largest desert in Africa?",
+        "Options": [
+          "Kalahari Desert",
+          "Sahara Desert",
+          "Namib Desert",
+          "Danakil Desert"
+        ],
+        "CorrectAnswerIndex": 1,
+        "Explanation": "The Sahara Desert is the largest hot desert in the world."
+      },
+      {
+        "Question": "Which African country was never colonized by Europeans?",
+        "Options": [
+          "Kenya",
+          "South Africa",
+          "Ethiopia",
+          "Nigeria"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "Ethiopia is the only African country that was never colonized."
+      },
+      {
+        "Question": "What is the longest river in Africa?",
+        "Options": [
+          "Congo River",
+          "Niger River",
+          "Zambezi River",
+          "Nile River"
+        ],
+        "CorrectAnswerIndex": 3,
+        "Explanation": "The Nile River is the longest river in Africa."
+      }
+    ]
+  },
+  {
+    "Name": "Antarctica",
+    "Description": "Antarctica is Earth's southernmost continent, containing the geographic South Pole. About 98% of Antarctica is covered by ice.",
+    "ImagePath": "/Resources/Images/antarctica.jpg",
+    "AudioPath": "/Resources/Audio/antarctica.mp3",
+    "RotationAngles": {
+      "X": 90,
+      "Y": 0,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "Emperor Penguin",
+        "Description": "The emperor penguin is the tallest and heaviest of all living penguin species.",
+        "ImagePrompt": "Emperor penguins huddled on ice"
+      },
+      {
+        "Name": "Weddell Seal",
+        "Description": "The Weddell seal is a relatively large and abundant true seal.",
+        "ImagePrompt": "Weddell seal resting on Antarctic ice"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Mount Erebus",
+        "Description": "Mount Erebus is the second-highest volcano in Antarctica.",
+        "ImagePrompt": "Mount Erebus volcano in Antarctica"
+      },
+      {
+        "Name": "Blood Falls",
+        "Description": "Blood Falls is an outflow of iron-rich water from Taylor Glacier.",
+        "ImagePrompt": "The red Blood Falls flowing from Taylor Glacier"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which country claimed the first territorial claim in Antarctica?",
+        "Options": [
+          "United Kingdom",
+          "Norway",
+          "United States",
+          "Russia"
+        ],
+        "CorrectAnswerIndex": 0,
+        "Explanation": "The United Kingdom was the first country to make a territorial claim."
+      },
+      {
+        "Question": "What treaty governs human activities in Antarctica?",
+        "Options": [
+          "Antarctic Conservation Treaty",
+          "Antarctic Peace Treaty",
+          "Antarctic Treaty",
+          "International Polar Agreement"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "The Antarctic Treaty sets aside Antarctica as a scientific preserve."
+      }
+    ]
+  },
+  {
+    "Name": "Asia",
+    "Description": "Asia is Earth's largest and most populous continent. It was the site of many of the first civilizations.",
+    "ImagePath": "/Resources/Images/asia.jpg",
+    "AudioPath": "/Resources/Audio/asia.mp3",
+    "RotationAngles": {
+      "X": 0,
+      "Y": -60,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "Giant Panda",
+        "Description": "The giant panda is a bear native to South Central China.",
+        "ImagePrompt": "Giant panda eating bamboo"
+      },
+      {
+        "Name": "Bengal Tiger",
+        "Description": "The Bengal tiger is a tiger native to the Indian subcontinent.",
+        "ImagePrompt": "Bengal tiger walking through tall grass"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Great Wall of China",
+        "Description": "The Great Wall of China is a series of fortifications.",
+        "ImagePrompt": "The Great Wall of China winding along mountain ridges"
+      },
+      {
+        "Name": "Taj Mahal",
+        "Description": "The Taj Mahal is an ivory-white marble mausoleum in Agra, India.",
+        "ImagePrompt": "The Taj Mahal at sunrise"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which is the most populous country in Asia?",
+        "Options": [
+          "India",
+          "China",
+          "Indonesia",
+          "Japan"
+        ],
+        "CorrectAnswerIndex": 1,
+        "Explanation": "China is the most populous country in Asia."
+      },
+      {
+        "Question": "Which mountain range contains Mount Everest?",
+        "Options": [
+          "Andes",
+          "Alps",
+          "Himalayas",
+          "Rocky Mountains"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "Mount Everest is located in the Himalayan mountain range."
+      }
+    ]
+  },
+  {
+    "Name": "Australia",
+    "Description": "Australia is a sovereign country comprising the mainland of the Australian continent. It is known for its Sydney Opera House.",
+    "ImagePath": "/Resources/Images/australia.jpg",
+    "AudioPath": "/Resources/Audio/australia.mp3",
+    "RotationAngles": {
+      "X": 30,
+      "Y": -120,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "Kangaroo",
+        "Description": "The kangaroo is a marsupial from the family Macropodidae.",
+        "ImagePrompt": "Red kangaroo hopping across the outback"
+      },
+      {
+        "Name": "Koala",
+        "Description": "The koala is an arboreal herbivorous marsupial native to Australia.",
+        "ImagePrompt": "Koala clinging to a eucalyptus tree branch"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Sydney Opera House",
+        "Description": "The Sydney Opera House is a multi-venue performing arts centre.",
+        "ImagePrompt": "Sydney Opera House at night"
+      },
+      {
+        "Name": "Great Barrier Reef",
+        "Description": "The Great Barrier Reef is the world's largest coral reef system.",
+        "ImagePrompt": "Aerial view of the Great Barrier Reef"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "What is the capital city of Australia?",
+        "Options": [
+          "Sydney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "Canberra is the capital city of Australia."
+      },
+      {
+        "Question": "Which of these animals is NOT native to Australia?",
+        "Options": [
+          "Kangaroo",
+          "Koala",
+          "Tiger",
+          "Echidna"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "Tigers are not native to Australia."
+      }
+    ]
+  },
+  {
+    "Name": "Europe",
+    "Description": "Europe is a continent located entirely in the Northern Hemisphere. It is known for its rich history, art, and diverse cultures.",
+    "ImagePath": "/Resources/Images/europe.jpg",
+    "AudioPath": "/Resources/Audio/europe.mp3",
+    "RotationAngles": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "European Brown Bear",
+        "Description": "The European brown bear is a subspecies of the brown bear native to much of Europe.",
+        "ImagePrompt": "European brown bear in a forest"
+      },
+      {
+        "Name": "Iberian Lynx",
+        "Description": "The Iberian lynx is a wild cat species native to the Iberian Peninsula.",
+        "ImagePrompt": "Iberian lynx stalking through scrubland"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Eiffel Tower",
+        "Description": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+        "ImagePrompt": "Eiffel Tower at night"
+      },
+      {
+        "Name": "Colosseum",
+        "Description": "The Colosseum is an oval amphitheatre in the centre of Rome, Italy.",
+        "ImagePrompt": "The ancient Colosseum in Rome"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which is the smallest country in Europe?",
+        "Options": [
+          "Monaco",
+          "Liechtenstein",
+          "Vatican City",
+          "San Marino"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "Vatican City is the smallest country in Europe."
+      },
+      {
+        "Question": "Which European mountain range separates Europe from Asia?",
+        "Options": [
+          "Alps",
+          "Pyrenees",
+          "Carpathians",
+          "Ural Mountains"
+        ],
+        "CorrectAnswerIndex": 3,
+        "Explanation": "The Ural Mountains are the geographical boundary between Europe and Asia."
+      }
+    ]
+  },
+  {
+    "Name": "North America",
+    "Description": "North America is a continent within the Northern Hemisphere. It has diverse ecosystems and landscapes.",
+    "ImagePath": "/Resources/Images/northamerica.jpg",
+    "AudioPath": "/Resources/Audio/northamerica.mp3",
+    "RotationAngles": {
+      "X": 0,
+      "Y": 60,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "American Bison",
+        "Description": "The American bison is a North American species of bison.",
+        "ImagePrompt": "American bison grazing on the Great Plains"
+      },
+      {
+        "Name": "Bald Eagle",
+        "Description": "The bald eagle is a bird of prey found in North America.",
+        "ImagePrompt": "Bald eagle perched on a tree branch"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Grand Canyon",
+        "Description": "The Grand Canyon is a steep-sided canyon carved by the Colorado River.",
+        "ImagePrompt": "The vast Grand Canyon at sunset"
+      },
+      {
+        "Name": "Statue of Liberty",
+        "Description": "The Statue of Liberty is a colossal neoclassical sculpture in New York Harbor.",
+        "ImagePrompt": "The Statue of Liberty in New York City"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which is the largest country by area in North America?",
+        "Options": [
+          "United States",
+          "Canada",
+          "Mexico",
+          "Greenland"
+        ],
+        "CorrectAnswerIndex": 1,
+        "Explanation": "Canada is the largest country by area in North America."
+      },
+      {
+        "Question": "Which North American mountain range runs from Canada to New Mexico?",
+        "Options": [
+          "Appalachian Mountains",
+          "Sierra Nevada",
+          "Rocky Mountains",
+          "Cascade Range"
+        ],
+        "CorrectAnswerIndex": 2,
+        "Explanation": "The Rocky Mountains run from Canada to New Mexico."
+      }
+    ]
+  },
+  {
+    "Name": "South America",
+    "Description": "South America is a continent mostly in the Southern Hemisphere. It is known for the Amazon rainforest.",
+    "ImagePath": "/Resources/Images/southamerica.jpg",
+    "AudioPath": "/Resources/Audio/southamerica.mp3",
+    "RotationAngles": {
+      "X": -30,
+      "Y": 60,
+      "Z": 0
+    },
+    "Animals": [
+      {
+        "Name": "Jaguar",
+        "Description": "The jaguar is a large felid species native to the Americas.",
+        "ImagePrompt": "Jaguar lurking in the Amazon rainforest"
+      },
+      {
+        "Name": "Andean Condor",
+        "Description": "The Andean condor is a South American bird in the New World vulture family.",
+        "ImagePrompt": "Andean condor soaring above the Andes Mountains"
+      }
+    ],
+    "Landmarks": [
+      {
+        "Name": "Machu Picchu",
+        "Description": "Machu Picchu is a 15th-century Inca citadel in Peru.",
+        "ImagePrompt": "The ancient Inca city of Machu Picchu"
+      },
+      {
+        "Name": "Amazon Rainforest",
+        "Description": "The Amazon rainforest is a moist broadleaf tropical rainforest.",
+        "ImagePrompt": "Aerial view of the Amazon rainforest"
+      }
+    ],
+    "QuizQuestions": [
+      {
+        "Question": "Which is the largest country by area in South America?",
+        "Options": [
+          "Argentina",
+          "Brazil",
+          "Colombia",
+          "Peru"
+        ],
+        "CorrectAnswerIndex": 1,
+        "Explanation": "Brazil is the largest country by area in South America."
+      },
+      {
+        "Question": "Which mountain range runs along the western coast of South America?",
+        "Options": [
+          "Andes",
+          "Alps",
+          "Rocky Mountains",
+          "Himalayas"
+        ],
+        "CorrectAnswerIndex": 0,
+        "Explanation": "The Andes mountain range runs along the western coast of South America."
+      }
+    ]
+  }
+]
+

@@ -10,12 +10,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="continents.json" />
+    <None Remove="Data\continents.json" />
     <None Remove="Resources\globe.mtl" />
     <None Remove="Resources\globe.obj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Data\continents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="HelixToolkit.Core.Wpf" Version="2.26.0" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.21.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>

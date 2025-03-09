@@ -4,21 +4,141 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:continent_explorer"
-        mc:Ignorable="d"
         xmlns:HelixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Core.Wpf"
-        Title="GameWindow" Height="450" Width="800">
-    <Grid>
-        <HelixToolkit:HelixViewport3D x:Name="viewport" ZoomExtentsWhenLoaded="True">
-            <HelixToolkit:SunLight/>
-            <ModelVisual3D x:Name="globeModel"/>
-        </HelixToolkit:HelixViewport3D>
+        mc:Ignorable="d"
+        Title="Continent Explorer" Height="600" Width="1000"
+        Background="#0A1128">
 
-        <!-- Label to show continent names -->
-        <TextBlock x:Name="continentLabel" 
-                   FontSize="16" FontWeight="Bold" Foreground="White" 
-                   Background="Black" Padding="5"
-                   Visibility="Hidden"
-                   HorizontalAlignment="Left" VerticalAlignment="Top"
-                   Margin="10"/>
+    <Window.Resources>
+        <LinearGradientBrush x:Key="SpaceGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#0A1128" Offset="0"/>
+            <GradientStop Color="#1C3F60" Offset="1"/>
+        </LinearGradientBrush>
+
+        <Style x:Key="TitleText" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Montserrat"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#E9F2F9"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="2" Direction="330" Color="#4E8FC2" Opacity="0.7" BlurRadius="5"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ContinentButton" TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#2A4494" Offset="0"/>
+                        <GradientStop Color="#1C3F60" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="#E9F2F9"/>
+            <Setter Property="FontFamily" Value="Montserrat"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="15"
+                                BorderBrush="#4E8FC2"
+                                BorderThickness="1">
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="3" Direction="330" Color="#4E8FC2" Opacity="0.5" BlurRadius="10"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#3F6AD8" Offset="0"/>
+                                            <GradientStop Color="#2A4494" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#1C3F60" Offset="0"/>
+                                            <GradientStop Color="#2A4494" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.98" ScaleY="0.98"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Panel - Continent Selection -->
+        <Border Grid.Column="0" Background="{StaticResource SpaceGradient}" Opacity="0.85">
+            <DockPanel LastChildFill="True">
+                <TextBlock DockPanel.Dock="Top" Text="CONTINENTS" FontSize="24" Style="{StaticResource TitleText}" 
+                           TextAlignment="Center" Margin="0,20,0,20"/>
+
+                <Button DockPanel.Dock="Bottom" Content="BACK TO MENU" Height="40" Margin="20,20,20,20" 
+                        Style="{StaticResource ContinentButton}" Click="BackButton_Click"/>
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel x:Name="labelStack" Margin="10"/>
+                </ScrollViewer>
+            </DockPanel>
+        </Border>
+
+        <!-- Middle Panel - 3D Globe -->
+        <Border Grid.Column="1" BorderBrush="#4E8FC2" BorderThickness="1,0,1,0">
+            <HelixToolkit:HelixViewport3D x:Name="viewport" 
+                                         ZoomExtentsWhenLoaded="False" 
+                                         ShowViewCube="False"
+                                         IsManipulationEnabled="False"
+                                         IsMoveEnabled="False">
+                <HelixToolkit:SunLight/>
+                <ModelVisual3D x:Name="globeModel"/>
+            </HelixToolkit:HelixViewport3D>
+        </Border>
+
+        <!-- Right Panel - Continent Info -->
+        <Border Grid.Column="2" Background="{StaticResource SpaceGradient}" Opacity="0.85">
+            <DockPanel LastChildFill="True">
+                <TextBlock DockPanel.Dock="Top" Text="CONTINENT INFO" FontSize="24" Style="{StaticResource TitleText}" 
+                           TextAlignment="Center" Margin="0,20,0,20"/>
+
+                <Button x:Name="exploreButton" DockPanel.Dock="Bottom" Content="EXPLORE" Height="40" Margin="20,20,20,20" 
+                        Style="{StaticResource ContinentButton}" Click="ExploreButton_Click" IsEnabled="False"/>
+
+                <StackPanel Margin="15">
+                    <TextBlock x:Name="continentNameText" FontSize="22" FontWeight="Bold" Foreground="#E9F2F9" 
+                               TextAlignment="Center" Margin="0,0,0,15"/>
+
+                    <ScrollViewer Height="300" VerticalScrollBarVisibility="Auto">
+                        <TextBlock x:Name="continentDescriptionText" FontSize="14" Foreground="#E9F2F9" 
+                                   TextWrapping="Wrap" Margin="5"/>
+                    </ScrollViewer>
+                </StackPanel>
+            </DockPanel>
+        </Border>
     </Grid>
 </Window>

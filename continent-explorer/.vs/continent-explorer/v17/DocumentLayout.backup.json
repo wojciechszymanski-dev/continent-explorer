@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\data\\continents.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:data\\continents.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\continentdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:continentdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:continent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|c:\\users\\adi\\source\\repos\\continent-explorer\\continentdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2A4D5DA-EE1F-4438-8C4F-30283ADF088F}|continent-explorer.csproj|solutionrelative:continentdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +47,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\GameWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GameWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\GameWindow.xaml.cs",
-              "RelativeToolTip": "GameWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:55:08.926Z",
+              "Title": "continents.json",
+              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Data\\continents.json",
+              "RelativeDocumentMoniker": "Data\\continents.json",
+              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Data\\continents.json",
+              "RelativeToolTip": "Data\\continents.json",
+              "ViewState": "AgIAAKEBAAAAAAAAAAAAAKcBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T20:50:17.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ContinentDetailWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\ContinentDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ContinentDetailWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\ContinentDetailWindow.xaml.cs",
+              "RelativeToolTip": "ContinentDetailWindow.xaml.cs",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAuwH4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:37:13.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Continent.cs",
+              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Continent.cs",
+              "RelativeDocumentMoniker": "Continent.cs",
+              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\Continent.cs",
+              "RelativeToolTip": "Continent.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv1YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:28:11.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\GameWindow.xaml",
               "RelativeDocumentMoniker": "GameWindow.xaml",
@@ -55,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -67,15 +109,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T07:23:08.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\GameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GameWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\GameWindow.xaml.cs",
+              "RelativeToolTip": "GameWindow.xaml.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAADwv9oAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:55:08.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContinentDetailWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\ContinentDetailWindow.xaml",
+              "RelativeDocumentMoniker": "ContinentDetailWindow.xaml",
+              "ToolTip": "C:\\Users\\Adi\\source\\repos\\continent-explorer\\ContinentDetailWindow.xaml",
+              "RelativeToolTip": "ContinentDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-09T19:36:15.059Z",
               "EditorCaption": ""
             }
           ]
